@@ -44,8 +44,8 @@
     \usepackage{lmodern}
 \fi
 
-\usepackage{charter}
-
+\usepackage{xcolor}
+\definecolor{darkteal}{rgb}{0.0, 0.4, 0.4}
 % Some settings:
 \raggedright
 \AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
@@ -58,7 +58,7 @@
 \setlength{\parskip}{0.0em}
 
 
-\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\color{darkteal}\titlerule]
 
 \titlespacing{\section}{
     % left space:
@@ -186,8 +186,8 @@
 
     \section{EDUCATION}
 
-        \begin{twocolentry}{
-            July 2016 – May 2021
+        \begin{twocolentry}{\textcolor{darkteal}{
+            July 2016 – May 2021}
         }
             \textbf{Indian Institute of Technology, Kharagpur}\end{twocolentry}
 
@@ -218,8 +218,8 @@
 
     
         \begin{onecolentry}
-            \textbf{\large Honeywell} \hfill \textit{Bengaluru, Karnataka} \\  
-            \textbf{\normalsize Advanced Software Development Engineer} \hfill \textit{July 2021 – Present} \\ % Adds slight spacing
+            \textbf{\large Honeywell} \hfill \textit{\textcolor{darkteal}{Bengaluru, Karnataka}} \\  
+            \textbf{\normalsize Advanced Software Development Engineer} \hfill \textit{\textcolor{darkteal}{July 2021 – Present}} \\ % Adds slight spacing
             \textbf{Production Intelligence} \\  
             \begin{adjustwidth}{0.4cm}{0cm}
                 \begin{highlights}
@@ -232,7 +232,7 @@
                     \item Effectively utilized Druid for time-series data management, ensuring efficient data storage and retrieval for analysis and prediction.
                     \item Designed a system to run scheduled calculations on KPIs, providing timely insights and performance metrics for end-users.
                     \item Delivered tailored solutions for key industries such as mining, and manufacturing, addressing their unique data management needs.
-                    \item Leveraged reason analysis and other advanced techniques to generate accurate predictions, aiding in proactive decision-making.
+                    \item Leveraged reason analysis and other advanced techniques to generate accurate predictions, aiding in quick decision-making.
                     
                 \end{highlights}
             \end{adjustwidth}
@@ -253,7 +253,7 @@
             \end{adjustwidth}
 
             \vspace{0.2 cm}
-            \textbf{\normalsize Software Engineer Intern} \hfill \textit{June 2020 -  August 2020} \\ % Adds slight spacing
+            \textbf{\normalsize Software Engineer Intern} \hfill \textit{\textcolor{darkteal}{June 2020 -  August 2020}} \\ % Adds slight spacing
             \begin{adjustwidth}{0.4cm}{0cm}
                 \begin{highlights}
                     \item Successfully migrated Process Safety Analyser code base from DotNet framework to DotNet core, achieving platform independence.
@@ -264,8 +264,8 @@
             \end{adjustwidth}
 
             \vspace{0.2 cm}
-            \textbf{\large  Quest Global} \hfill \textit{Thiruvananthapuram, Keral} \\  
-            \textbf{Deep Learning Internship} \hfill \textit{May 2019 – July 2019}  \\  
+            \textbf{\large  Quest Global} \hfill \textit{\textcolor{darkteal}{Thiruvananthapuram, Keral}} \\  
+            \textbf{Deep Learning Internship} \hfill \textit{\textcolor{darkteal}{May 2019 – July 2019}}  \\  
             \begin{adjustwidth}{0.4cm}{0cm}
                 \begin{highlights}
                     \item Developed monocular depth estimation to avoid collisions, utilizing an Encoder-Decoder trained on the KITTI dataset.
@@ -276,7 +276,7 @@
             \end{adjustwidth}
 
             \vspace{0.2 cm}
-            \textbf{\large  Blueseed Ventures} \hfill \textit{December 2018} \\  
+            \textbf{\large  Blueseed Ventures} \hfill \textit{\textcolor{darkteal}{December 2018}} \\  
             \begin{adjustwidth}{0.4cm}{0cm}
                 \begin{highlights}
                     \item Developed a backend and database management system using Node.js and MongoDB for web, Android, and iOS applications.
@@ -289,19 +289,16 @@
 
         \vspace{0.05 cm}
 
-        \section{PROJECTS}
+    \section{PROJECTS}
 
-
-
-        
     \begin{onecolentry}{
     }
-        \textbf{PREDACONS | Founder and Maintainer} \hfill \textit{October 2023 - Present}\end{onecolentry}
+        \textbf{PREDACONS | Founder and Maintainer} \hfill \textit{\textcolor{darkteal}{October 2023 - Present}}\end{onecolentry}
 
     \begin{onecolentry}
         \begin{adjustwidth}{0.4cm}{0cm}
             \begin{highlights}
-                \item Established Predacons, a versatile Python library for simplified and flexible training of large language models (LLMs).
+                \item Established Predacons, a versatile Python library for simplified training and fine-tuning of large language models (LLMs).
                 \item Developed user-friendly functions for seamless data handling and model training, enhancing usability and flexibility.
                 \item Automated optimization to dynamically adjust fine-tuning, accommodating VRAM limits while allowing user-defined configurations.
                 \item Created Predacons Server, an OpenAI-compatible web server, enabling effortless hosting of any LLM model.
