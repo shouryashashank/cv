@@ -22,16 +22,17 @@
 **Production Intelligence**  
 *Bengaluru, Karnataka | July 2021– Present*
 
-- Spearheaded development of a large-scale, cloud-native industrial software, ensuring robust, scalable, and efficient architecture.
-- Achieved 99.9% application availability by utilizing durable functions and redundant worker nodes, ensuring minimal downtime.
-- Designed and developed a Python expression evaluator, enabling users to write and execute custom calculation formulas seamlessly.
-- Increased data backfill speed by 15x through parallelization and bulk data insertion techniques, significantly improving performance.
-- Managed Azure infra, including function apps, Kubernetes, file shares, and service bus, ensuring seamless integration and operation.
-- Improved reliability and speed of inter-microservice calls by optimizing communication protocols and reducing latency.
-- Effectively utilized Druid for time-series data management, ensuring efficient data storage and retrieval for analysis and prediction.
-- Designed a system to run scheduled calculations on KPIs, providing timely insights and performance metrics for end-users.
-- Delivered tailored solutions for key industries such as mining and manufacturing, addressing their unique data management needs.
-- Leveraged reason analysis and other advanced techniques to generate accurate predictions, aiding in quick decision-making.
+- Worked on developing a large scale cloud native industrial software solution with robust, scalable and efficient architecture.
+- Designed and developed application with 99.9\% availability by using durable function and redundant workers.
+- Designed and developed expression python evaluator using Azure function app for users to write calculations and execute formulas.
+- Increased data back fill speed by 15x through parallelizing the code and bulk data insertion,
+- Worked on azure infra, function apps, ARO, AKS, keda, Postgres SQL,file share, service bus, DataBricks, azure Studio. 
+- Worked on optimizing inter micro service call for reliability and speed using proper DNS Namespace and improving routing.
+- Built tsdb apis on Druid to manage Time series data to efficiently read and write to it. without any insertion or retrieval latency,
+- Used Durable function to run and orchestrate calculations on KPIs to provide timely results, insights and metrics to end users
+- Delivered unique solutions to mining, manufacturing, chemical, environmental and other industries, with a tailor made approach
+- Leveraged reason analysis and other advanced techniques to generate accurate predictions, aiding in quick decision-making
+                    
 
 **Honeywell Forge AI**
 
